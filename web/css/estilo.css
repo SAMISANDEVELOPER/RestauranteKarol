@@ -1,0 +1,16 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+    background-image: url(imagen/imagen2.jpg);
+    aling:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: justify;
+    color: black;
+}
+
