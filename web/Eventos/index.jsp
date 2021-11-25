@@ -83,7 +83,7 @@
                     <th>NOMBRE DEL EVENTO</th>
                     <th>CUPOS  DISPONIBLES</th>
                     <th>PRECIO DEL EVENTO</th>
-                    <th>MODIFCA TU RESERVA </th>
+                    <th>MODIFiCA TU RESERVA </th>
                     <th>ELIMINA TU RESERVA</th>
                 </tr>
            </thead>

@@ -31,58 +31,77 @@
         <title>MODIFICAR REGISTRO</title>
     </head>
     <body>
-      <h2>MODIFICAR REGISTRO</h2>
+        
+        <nav class="header-navbar full-box poppins-regular font-weight-bold" >
+	            <ul class="list-unstyled full-box">
+	                <li>
+	                    <a href="index.jsp" >Inicio<span class="full-box" ></span></a>
+	                </li>
+	                <li>
+	                    <a href="menu.jsp" >Menú<span class="full-box" ></span></a>
+	                </li>
+                        <li>
+	                    <a href="EventosController" >Reservas<span class="full-box" ></span></a>
+	                </li>
+	            </ul>
+	</nav>
+      <h2 style="border:2px solid DodgerBlue;"class="text-center">MODIFICAR REGISTRO</h2>
         <form action="EventosController?accion=actualizar"  method="POST" autocomplete="off">
             <input id="id" name="id" type="hidden" value="<c:out value="${evento.id}"/>"/>
+            
+            
+            <div id="from"class="text-center">
             <p>
-                Codigo:
+               Codigo:
                 <input id="codigo" name="codigo" type="text" value="<c:out value="${evento.codigo}"/>"/>
             </p>
-            
-            <p>
-                Nombre:
+            </div>
+
+            <div id="reply"class="text-center">
+             <p>
+               Nombre:
                 <input id="nombre" name="nombre" type="text" value="<c:out value="${evento.nombre}"/>"/>
             </p>
-            
+            </div>
+
+            <div id="message"class="text-center">
             <p>
-                Cupos:
+                 Cupos:
                 <input id="cupos" name="cupos" type="text" value="<c:out value="${evento.cupos}"/>"/>
             </p>
-            
-            <p>
-                Precio:
+            </div>
+            <div id="message"class="text-center">
+              <p>
+               Precio:
                 <input id="precio" name="precio" type="text" value="<c:out value="${evento.precio}"/>"/>
             </p>
-            
-             <br/><br/>
-            
-            <button id="guardar" name="guardar" type="submit">Guardar</button>
-            
+            </div>
+
+            <div class="button"class="text-center">
+            <button class="btn btn-primary active"id="guardar" name="guardar" type="submit" style="display: block; margin: 0 auto;">Guardar</button>
+            </div>
             
         </form>
-    </body>
-    <div class="container container-web-page">
-	    <h4 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros servicios</h4>
-	    <br>
-	    <div class="row">
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-shipping-fast fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Envíos a domicilio</h5>
-	            <p class="text-center"></p>
+            	<div class="container container-web-page">
+	    <div class="row justify-content-md-center">
+	        <div class="col-12 col-md-6">
+	            <figure class="full-box">
+	                <img src="./assets/img/registro.png" alt="registro" class="img-fluid">
+	            </figure>
 	        </div>
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-utensils fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Cocinando Recuerdos</h5>
-	            <p class="text-center"></p>
-	        </div>
-	        <div class="col-12 col-sm-6 col-md-4">
-	            <p class="text-center"><i class="fas fa-store-alt fa-5x"></i></p>
-	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Reservaciones de local</h5>
-	            <p class="text-center"></p>
+	        <div class="w-100"></div>
+	        <div class="col-12 col-md-6">
+	            <h3 class="text-center text-uppercase poppins-regular font-weight-bold">Crea tu cuenta</h3>
+	            <p class="text-justify">
+	                Crea tu cuenta para poder realizar pedidos de platos hasta la puesta de tu casa, es muy fácil y rápido.
+	            </p>
+	            <p class="text-center">
+	                <a href="registro.jsp" class="btn btn-primary" >Crear cuenta</a>
+	            </p>
 	        </div>
 	    </div>
 	</div>
-        <footer class="footer">
+                    <footer class="footer">
 	    <div class="container">
 	        <div class="row">
 	            <div class="col-12 col-md-4">
@@ -118,11 +137,6 @@
 	    </div>
 	</footer>
 
-
-	<!-- MDBootstrap V5 -->
-	<script src="./js/mdb.min.js" ></script>
-
-	<!-- General scripts -->
-	<script src="./js/main.js" ></script>
+    </body>
         
 </html>

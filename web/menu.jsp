@@ -205,6 +205,27 @@
 
 	    </div>
      </div>
+        <div class="container container-web-page">
+	    <h4 class="text-center text-uppercase poppins-regular font-weight-bold">Nuestros servicios</h4>
+	    <br>
+	    <div class="row">
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-shipping-fast fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Envíos a domicilio</h5>
+	            <p class="text-center">Programa para recoger o pide tu domicilio al watsapp 3057124803.No te quedes sin disfrutar la receta original en casa</p>
+	        </div>
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-utensils fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Cocinando Recuerdos</h5>
+	            <p class="text-center">Contactanos al 3057124803 con 6 horas de anticipacion a tu visita y preparamos  el menú que se ajuste a tus deseos</p>
+	        </div>
+	        <div class="col-12 col-sm-6 col-md-4">
+	            <p class="text-center"><i class="fas fa-store-alt fa-5x"></i></p>
+	            <h5 class="text-center text-uppercase poppins-regular font-weight-bold">Reservaciones de local</h5>
+	            <p class="text-center">Haz tu Reserva para cualquier tipo de ocasión</p>
+	        </div>
+	    </div>
+	</div>
         <!-- Footer -->
 	<footer class="footer">
 	    <div class="container">

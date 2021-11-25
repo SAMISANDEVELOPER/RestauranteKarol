@@ -35,7 +35,7 @@
 	<header class="header full-box">
 	    <div class="header-brand text-center full-box">
 	        <a href="index.jsp">
-	           <img src="./assets/img/logochef.jpg"align="left" alt="logochef">
+	           <img src="./assets/img/logo.jpeg"align="left" alt="logochef">
 	        </a>
 	    </div>
 
@@ -85,7 +85,7 @@
 	            <form class="div-bordered" action="" style="padding: 15px;">
 
 	                <fieldset>
-				        <legend><i class="far fa-address-card"></i> &nbsp; Información personal</legend>
+			<legend><i class="far fa-address-card"></i> &nbsp; Información personal</legend>
 	                    <div class="container-fluid">
 	                        <div class="row">
 	                            <div class="col-12 col-md-6">
