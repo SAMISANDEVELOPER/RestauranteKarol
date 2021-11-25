@@ -36,9 +36,7 @@
 	<!-- Header -->
 	<header class="header full-box">
 	    <div class="header-brand text-center full-box">
-	        <a href="index.jsp">
-	        
-	        </a>
+	        <a href="index.jsp"></a>
 	    </div>
 
 	    <div class="header-options full-box">
@@ -49,6 +47,9 @@
 	                </li>
 	                <li>
 	                    <a href="menu.jsp" >Menú<span class="full-box" ></span></a>
+	                </li>
+                        <li>
+	                    <a href="EventosController" >Reservas<span class="full-box" ></span></a>
 	                </li>
 	            </ul>
 	        </nav>
@@ -75,7 +76,7 @@
         <h1 class="text-center">CELEBRA CON NOSOTROS TU FECHA ESPECIAL</h1>
         <a href ="EventosController?accion=nuevo">NUEVO REGISTRO</a>
         <br/><br/>
-        <table border="6" witdth="40%"   class="table table-hover" class="table table-bordered">
+        <table border="8" witdth="40%"   class="table table-hover" class="table table-bordered">
             <thead>
                 <tr>
                     <th>CODIGO DE RESERVA</th>
