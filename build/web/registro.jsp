@@ -48,6 +48,9 @@
 	                <li>
 	                    <a href="menu.jsp" >Menú<span class="full-box" ></span></a>
 	                </li>
+                         <li>
+	                    <a href="EventosController" >Reservas<span class="full-box" ></span></a>
+	                </li>
 	            </ul>
 	        </nav>
 	        <div class="header-button full-box text-center btn-login-menu" >
